@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <!-- Logo Background -->
+  <defs>
+    <linearGradient id="logoGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#3b82f6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1e40af;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Outer circle -->
+  <circle cx="100" cy="100" r="95" fill="url(#logoGradient)" stroke="#000" stroke-width="2"/>
+  
+  <!-- Letter S -->
+  <g transform="translate(100, 100)">
+    <!-- S shape made with curves -->
+    <path d="M -15 -35 Q -25 -35 -25 -25 Q -25 -15 -15 -15 Q 0 -15 0 -25 Q 0 -35 -15 -35" fill="none" stroke="white" stroke-width="6" stroke-linecap="round"/>
+    <path d="M -15 -5 Q -25 -5 -25 5 Q -25 15 -15 15 Q 0 15 0 5 Q 0 -5 -15 -5 M 0 5 Q 0 25 15 25 Q 25 25 25 15" fill="none" stroke="white" stroke-width="6" stroke-linecap="round"/>
+    
+    <!-- Tech elements (circuit lines) -->
+    <circle cx="-30" cy="0" r="2" fill="white"/>
+    <circle cx="30" cy="0" r="2" fill="white"/>
+    <line x1="-28" y1="0" x2="-20" y2="0" stroke="white" stroke-width="1"/>
+    <line x1="20" y1="0" x2="28" y2="0" stroke="white" stroke-width="1"/>
+  </g>
+</svg>
